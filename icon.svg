@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Calcify</title>
+  <desc id="desc">Marca organica em traco preto, inspirada em um osso atravessado por duas linhas ascendentes</desc>
+  <g fill="none" stroke="#202020" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round">
+    <path transform="translate(14 -20) scale(.18)" stroke-width="15.6" d="M325 657 C316 654 311 652 311 652 C311 613 308 590 326 561 L350 520 C358 493 357 458 358 435 C358 394 365 372 380 340 C393 314 392 280 392 242 C380 240 373 240 367 247 C357 260 353 277 334 281 L322 281 C308 279 307 262 293 220 C263 216 228 231 194 255 C192 262 193 273 200 278 C221 295 238 316 251 345 C257 367 252 402 251 435 C248 482 234 512 222 552 C220 566 203 576 191 595 C177 619 180 650 194 672 C199 679 207 685 211 683 C224 668 239 615 270 579 L270 612 C275 626 287 642 291 646 C302 650 315 652 325 657"/>
+    <path d="M18 77 C42 73 77 58 106 44"/>
+    <path d="M14 108 C37 88 88 64 116 27"/>
+  </g>
+</svg>

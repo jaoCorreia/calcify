@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="65 185 800 530" role="img" aria-labelledby="title desc">
+  <title id="title">Calcify</title>
+  <desc id="desc">Silhueta organica semelhante a um osso, cruzada por duas linhas ascendentes em traco manual</desc>
+  <g fill="none" stroke="#202020" stroke-width="5.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M325 657 C316 654 311 652 311 652 C311 613 308 590 326 561 L350 520 C358 493 357 458 358 435 C358 394 365 372 380 340 C393 314 392 280 392 242 C380 240 373 240 367 247 C357 260 353 277 334 281 L322 281 C308 279 307 262 293 220 C263 216 228 231 194 255 C192 262 193 273 200 278 C221 295 238 316 251 345 C257 367 252 402 251 435 C248 482 234 512 222 552 C220 566 203 576 191 595 C177 619 180 650 194 672 C199 679 207 685 211 683 C224 668 239 615 270 579 L270 612 C275 626 287 642 291 646 C302 650 315 652 325 657"/>
+    <path d="M136 420 C170 424 211 406 248 396 C346 366 523 302 674 235"/>
+    <path d="M95 635 C90 627 95 618 111 605 C166 557 251 513 351 469 C517 395 744 281 825 204"/>
+  </g>
+</svg>

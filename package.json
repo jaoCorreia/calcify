@@ -1,0 +1,48 @@
+{
+  "name": "calcify-guard",
+  "version": "0.1.1",
+  "description": "Protecao verificavel para arquivos e features revisados por humanos ou agentes autorizados",
+  "type": "module",
+  "bin": {
+    "calcify": "bin/calcify.js"
+  },
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/calcify.js && node --check src/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaoCorreia/calcify.git"
+  },
+  "homepage": "https://github.com/jaoCorreia/calcify#readme",
+  "bugs": {
+    "url": "https://github.com/jaoCorreia/calcify/issues"
+  },
+  "keywords": [
+    "calcify",
+    "ai-agent",
+    "approval",
+    "integrity",
+    "cli",
+    "git"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md",
+    "LICENSE",
+    "icon.svg",
+    "logo.svg",
+    "examples/"
+  ]
+}
