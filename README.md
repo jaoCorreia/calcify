@@ -112,14 +112,3 @@ O Calcify nao muda permissoes do sistema de arquivos: um agente com acesso de es
 ## API JavaScript
 
 O pacote exporta `generateKeys`, `initialize`, `protect`, `unprotect`, `authorizeApprover`, `revokeApprover`, `createRequest`, `approve` e `check` por `calcify-guard`. A CLI usa essas mesmas funcoes.
-
-## Marca
-
-A [marca principal](logo.svg) segue o rascunho fornecido: contorno organico semelhante a um osso e duas linhas ascendentes, em traco preto sobre fundo transparente. O [icone compacto](icon.svg) adapta a mesma ideia para espacos quadrados pequenos. As duas versoes sao SVGs editaveis.
-
-## Limites desta versao
-
-- Os alvos sao arquivos ou diretorios existentes. Diretorios sao verificados pela lista e pelo conteudo de todos os arquivos internos; links simbolicos sao rejeitados.
-- Um alvo protegido nao pode se sobrepor a outro, evitando aprovacoes ambiguas.
-- A verificacao nao consulta Git. Ela inspeciona o estado atual do disco; na CI, rode depois do checkout do commit a ser aceito.
-- A versao atual usa um dono por projeto e qualquer numero de aprovadores delegados.
