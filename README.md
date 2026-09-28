@@ -2,7 +2,7 @@
 
 Calcify marca arquivos ou diretorios inteiros como protegidos. O agente pode ler e propor mudancas normalmente, mas uma alteracao protegida so passa na verificacao depois de uma aprovacao assinada para **aquele conteudo exato**. A justificativa fica junto da solicitacao e da aprovacao.
 
-O pacote e uma CLI e uma biblioteca JavaScript sem dependencias externas, para Node.js 20 ou superior. O projeto esta em [GitHub](https://github.com/jaoCorreia/calcify).
+O pacote e uma CLI e uma biblioteca JavaScript sem dependencias externas, para Node.js 20 ou superior. Veja o [site com o jogo](https://calcify-play.jaocorreia.chatgpt.site), o [pacote no npm](https://www.npmjs.com/package/calcify-guard) e o [codigo no GitHub](https://github.com/jaoCorreia/calcify).
 
 ## Modelo de uso
 
@@ -16,7 +16,7 @@ Uma aprovacao cobre apenas o hash solicitado. Outra edicao, inclusao ou exclusao
 
 ## Instalacao
 
-No projeto que sera protegido, instale o pacote pelo npm quando a publicacao estiver disponivel:
+No projeto que sera protegido, instale o pacote pelo npm:
 
 ```sh
 npm install --save-dev calcify-guard
@@ -25,7 +25,7 @@ npm install --save-dev calcify-guard
 Tambem e possivel instalar o arquivo `.tgz` disponivel nos releases do GitHub:
 
 ```sh
-npm install --save-dev /caminho/para/calcify-guard-0.1.1.tgz
+npm install --save-dev /caminho/para/calcify-guard-0.1.2.tgz
 ```
 
 Os exemplos abaixo rodam **na raiz do projeto protegido**. Mantenha todas as chaves privadas fora do projeto e fora do alcance do agente que edita o codigo. Uma pasta vizinha aparece aqui apenas para ilustrar os caminhos; use um cofre, servico de assinatura ou ambiente separado para a aprovacao real.

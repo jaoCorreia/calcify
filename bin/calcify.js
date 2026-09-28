@@ -3,7 +3,7 @@ import { parseArgs } from 'node:util';
 import { resolve } from 'node:path';
 import { approve, authorizeApprover, check, createRequest, generateKeys, initialize, protect, revokeApprover, unprotect } from '../src/index.js';
 
-const usage = `Calcify 0.1.1
+const usage = `Calcify 0.1.2
 
 Uso:
   calcify keygen --private-key CAMINHO --public-key CAMINHO

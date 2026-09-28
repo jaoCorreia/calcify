@@ -1,6 +1,6 @@
 {
   "name": "calcify-guard",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Protecao verificavel para arquivos e features revisados por humanos ou agentes autorizados",
   "type": "module",
   "bin": {
@@ -21,7 +21,7 @@
     "type": "git",
     "url": "git+https://github.com/jaoCorreia/calcify.git"
   },
-  "homepage": "https://github.com/jaoCorreia/calcify#readme",
+  "homepage": "https://calcify-play.jaocorreia.chatgpt.site",
   "bugs": {
     "url": "https://github.com/jaoCorreia/calcify/issues"
   },
