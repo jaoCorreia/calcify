@@ -22,10 +22,32 @@ No projeto que sera protegido, instale o pacote pelo npm:
 npm install --save-dev calcify-guard
 ```
 
+O pacote instala o executavel `calcify`. Depois da instalacao local, use `npx calcify` na raiz do projeto. Para ter o comando direto em qualquer terminal:
+
+```sh
+npm install --global calcify-guard
+calcify
+```
+
+Sem instalacao local ou global, use `npm exec --package calcify-guard -- calcify`. O pacote no registro se chama **`calcify-guard`**; `calcify` e o nome do executavel. Execute `npx calcify` somente depois da instalacao local, para evitar baixar outro pacote com esse nome.
+
+### Fluxo no terminal
+
+`calcify` abre um menu para verificar, solicitar, aprovar e proteger arquivos. Os comandos diretos tambem guiam os campos ausentes quando ha um terminal interativo:
+
+```sh
+calcify check ../segredos/owner.pub
+calcify request .env.example
+calcify approve
+calcify status
+```
+
+`check` e `status` sempre verificam **todos** os alvos protegidos; o caminho opcional e a chave publica de confianca. `request` pergunta a justificativa. `approve` mostra as solicitacoes e pergunta o caminho da chave privada e o nome do aprovador. Em scripts e na CI, passe os dados explicitamente com `--reason`, `--private-key` e `--approver`.
+
 Tambem e possivel instalar o arquivo `.tgz` disponivel nos releases do GitHub:
 
 ```sh
-npm install --save-dev /caminho/para/calcify-guard-0.1.2.tgz
+npm install --save-dev /caminho/para/calcify-guard-0.1.3.tgz
 ```
 
 Os exemplos abaixo rodam **na raiz do projeto protegido**. Mantenha todas as chaves privadas fora do projeto e fora do alcance do agente que edita o codigo. Uma pasta vizinha aparece aqui apenas para ilustrar os caminhos; use um cofre, servico de assinatura ou ambiente separado para a aprovacao real.

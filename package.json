@@ -1,6 +1,6 @@
 {
   "name": "calcify-guard",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Protecao verificavel para arquivos e features revisados por humanos ou agentes autorizados",
   "type": "module",
   "bin": {
